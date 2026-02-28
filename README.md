@@ -1,4 +1,4 @@
-# YourSecret — Secure AI Chat
+# # Breeze — Secure AI Chat for your secrets
 
 A secure tool for talking to an AI agent so that **user secrets are not leaked**. Flow:
 
