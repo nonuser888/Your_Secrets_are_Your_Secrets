@@ -1,0 +1,15 @@
+# Secure AI chat - dependencies
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Encryption
+cryptography>=42.0.0
+
+# AI / summarization (OpenAI-compatible)
+openai>=1.12.0
+httpx>=0.26.0
+
+# Optional: Abelian RPC (HTTP with TLS)
+# certifi for TLS; we use httpx for requests
