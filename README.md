@@ -1,6 +1,6 @@
-# # Breeze — Secure AI Chat for your secrets
+# # A secure tool for talking to an AI agent so that **user secrets are not leaked**. Flow:
 
-A secure tool for talking to an AI agent so that **user secrets are not leaked**. Flow:
+*this is the hackathon version, do not use it, no guarantee for security. a simpler and safer version not for hackathon is coming soon.
 
 1. **While chatting**: You talk to an AI model; conversation stays in memory only for that session.
 2. **On session end**: The chat history is **summarized** (condensed to a configurable length, e.g. thousands of words), **encrypted** with your secret, and **saved as a block** on a blockchain (Abelian or a local file-based store).
